@@ -1,0 +1,2 @@
+# vk hatakon hotfix.web
+ 
