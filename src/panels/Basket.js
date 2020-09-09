@@ -159,7 +159,7 @@ const Basket = ({ match: { params: { areaId, itemId }}, foodAreas, order }) => {
           ? <Link to={`/order/${area.id}/${item.id}`} className="Place__order">
             Оплатить {price}
           </Link>
-          : <div>Для оформления заказа нужно добавить товары в корзину, нажмите на кнопку "изменить"</div>
+          : <div className="Place__order">Для оформления заказа нужно добавить товары в корзину, нажмите на кнопку "изменить"</div>
         }
       </footer>
     </div>

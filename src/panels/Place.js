@@ -115,13 +115,15 @@ const Place = ({ item, order, onIncrementPosition, onDecrementPosition, area }) 
           </li>
         )))}
       </ul>
-      {isBasketFilled && 
-        <footer className="Place__footer">
-          <Link to={`/basket/${area.id}/${item.id}`} className="Place__order">
+      <footer className="Place__footer">
+        {isBasketFilled ? <Link to={`/basket/${area.id}/${item.id}`} className="Place__order">
             Оформить заказ ({price})
           </Link>
-        </footer>
-      }
+         : <div className="Place__order">
+            Добавьте товары в корзину
+          </div>
+        }
+      </footer>
     </div>
   );
 };
