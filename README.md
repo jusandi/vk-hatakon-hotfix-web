@@ -2,9 +2,9 @@
 
 ## Доступно по ссылкам:
 
-[https://codesandbox.io/s/dry-violet-7r02i](https://codesandbox.io/s/dry-violet-7r02i)
+[https://codesandbox.io/s/priceless-franklin-v6h44](https://codesandbox.io/s/priceless-franklin-v6h44)
 
-[https://7r02i.csb.app/](https://7r02i.csb.app/)
+[https://v6h44.csb.app/](https://v6h44.csb.app/)
 
 Выполнение третьего задания. Что было сделано:
 
